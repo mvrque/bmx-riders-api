@@ -1,0 +1,14 @@
+{
+  "name": "bmx-riders-api",
+  "version": "1.0.0",
+  "description": "Bmx riders all across the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marko Tomik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
