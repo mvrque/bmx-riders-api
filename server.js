@@ -73,6 +73,6 @@ app.get('/api/:riderName', (request, response) => {
     // response.json(BMXriders)
 })
 
-app.listen(PORT , () =>{
+app.listen(process.env.PORT || PORT , () =>{
     console.log('Your server is running. Go catch it!')
 })
