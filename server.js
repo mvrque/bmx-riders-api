@@ -36,8 +36,7 @@ const BMXriders = {
         'style': 'Street',
         'sponsors': ['Stress BMX', 'ParBMX', 'Vans', 'FTL', 'ELINARTTATTOO'],
         'birthLocation': 'Tartu, Estonia',
-        'instagram': 'https://www.instagram.com/marttilainevool/',
-        'image': url('riders-pictures/marttilainevool.jpeg')
+        'instagram': 'https://www.instagram.com/marttilainevool/'
     },
     'garrett reynolds':{
         'birthName': 'Garrett Reynolds',
