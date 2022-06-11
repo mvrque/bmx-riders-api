@@ -1,8 +1,27 @@
 const express = require('express');
 const app = express();
 const PORT = 8000;
+const cors = require('cors');
+
+app.use(cors());
 
 const BMXriders = {
+    'anthony perrin':{
+        'birthName': 'Anthony Perrin',
+        'age': 28,
+        'style': 'Street',
+        'sponsors': ['KinkBmx', 'TheCutBmx', 'Vans', 'PlantsBasically', 'Mariejade'],
+        'birthLocation': 'Tarare, France',
+        'instagram': 'https://www.instagram.com/anthonyperrin__/'
+    },
+    'alex kennedy':{
+        'birthName': 'Alex Kennedy',
+        'age': 32,
+        'style': 'Street',
+        'sponsors': ['Cult Crew', 'Eclat', 'Nyishar Organic Health Products'],
+        'birthLocation': 'Croydon, United Kingdom',
+        'instagram': 'https://www.instagram.com/a369k/'
+    },
     'boyd hilder':{
         'birthName': 'Boyd Hilder',
         'age': 26,
@@ -17,7 +36,8 @@ const BMXriders = {
         'style': 'Street',
         'sponsors': ['Stress BMX', 'ParBMX', 'Vans', 'FTL', 'ELINARTTATTOO'],
         'birthLocation': 'Tartu, Estonia',
-        'instagram': 'https://www.instagram.com/marttilainevool/'
+        'instagram': 'https://www.instagram.com/marttilainevool/',
+        'image': url('riders-pictures/marttilainevool.jpeg')
     },
     'garrett reynolds':{
         'birthName': 'Garrett Reynolds',

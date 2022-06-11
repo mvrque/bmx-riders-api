@@ -9,6 +9,7 @@
   "author": "Marko Tomik",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "heroku": "^7.60.2"
   }
